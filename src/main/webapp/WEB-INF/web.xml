@@ -1,0 +1,19 @@
+<web-app>
+
+<welcome-file-list>
+<welcome-file>index.html</welcome-file>
+</welcome-file-list>
+
+<serlet>
+<serlet-name>Servlet1</serlet-name>
+<serlet-class>com.tap.servlet.FirstServlet</serlet-class>
+</serlet>
+
+<serlet-mapping>
+	<serlet-name>Servlet1</serlet-name>
+	<url-pattern>/Serv1</url-pattern>
+</serlet-mapping>
+
+
+
+</web-app>
